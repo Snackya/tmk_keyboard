@@ -53,16 +53,16 @@ const action_t actionmaps[][UNIMAP_ROWS][UNIMAP_COLS] PROGMEM = {
         ESC, 	F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12,           PSCR,SLCK,PAUS,         VOLD,VOLU,MUTE,
         GRV, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, JYEN,BSPC,     INS, HOME,PGUP,    NLCK,PSLS,PAST,PMNS,
         TAB, L,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,     BSLS,     DEL, END, PGDN,    P7,  P8,  P9,  PPLS,
-        ESC,A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,     NUHS,ENT,                         P4,  P5,  P6,  PCMM,
-        LSFT,NUBS,Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,     SLSH,  SLSH,          RSFT,           P1,  P2,  P3,  PENT,
+        FN0,A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,     NUHS,ENT,                         P4,  P5,  P6,  PCMM,
+        LSFT,NUBS,Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,     SLSH,  RSFT,          RSFT,           P1,  P2,  P3,  PENT,
         LCTL,LGUI,LALT,MHEN,          SPC,           HENK,KANA,RALT,RGUI,FN0, FN0,     FN0,RGUI,RCTRL,    P0,       PDOT,PEQL
         ),
     [1] = UNIMAP(
         TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,
         GRV,      TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,          TRNS,TRNS,TRNS,         TRNS,TRNS,TRNS,
         GRV, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, INS, DEL,      TRNS,TRNS,TRNS,    TRNS,TRNS,TRNS,TRNS,
-        TRNS,WWW_BACK,W,   WWW_FORWARD,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,FN2,FN5,  FN3,   FN4,     TRNS,TRNS,TRNS,    TRNS,TRNS,TRNS,TRNS,
-        TRNS,A,   S,   D,   TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS,INS,                        TRNS,TRNS,TRNS,TRNS,
+        TRNS,WWW_BACK,UP,WWW_FORWARD,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,UP,FN2,FN3,FN4,     TRNS,TRNS,TRNS,    TRNS,TRNS,TRNS,TRNS,
+        TRNS,LEFT,   DOWN,  RIGHT,TRNS,TRNS,TRNS,TRNS,TRNS,LEFT,DOWN,RIGHT, TRNS,INS,                        TRNS,TRNS,TRNS,TRNS,
         TRNS,TRNS, MEDIA_PREV_TRACK,MEDIA_NEXT_TRACK,MEDIA_PLAY_PAUSE,TRNS,FN1,TRNS,TRNS,TRNS, TRNS,TRNS,     TRNS,TRNS,          TRNS,         TRNS,TRNS,TRNS,TRNS,
         TRNS,TRNS,TRNS,TRNS,          TRNS,          TRNS,TRNS,MUTE,TRNS,TRNS,TRNS,     MUTE,VOLD,VOLU,    TRNS,     TRNS,TRNS
         ),
